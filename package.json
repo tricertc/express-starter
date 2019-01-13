@@ -7,7 +7,7 @@
     "start:dev": "nodemon -r dotenv/config",
     "start": "node index.js",
     "test": "mocha -c \"test/**/*.spec.js\"",
-    "test:coverage": "npm run test && nyc report",
+    "test:coverage": "nyc npm run test",
     "test:watch": "mocha -c -w \"test/**/*.spec.js\""
   },
   "keywords": [],
